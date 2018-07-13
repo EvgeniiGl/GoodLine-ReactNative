@@ -33,7 +33,7 @@ ProfileScreen.js
 Проверяет доступ в AsyncStorage.
 
 
-SignInScreen.jsx
+SignInScreen.js
 Привязка формы реализована с помощью "redux-form".
 Форма входа принимает “фейковые” данные:
 login: Admin
@@ -44,7 +44,7 @@ pass: 12345
 Menu.js
 Навигация по экранам реализована с помощью 'react-navigation'
 
-require_auth.jsx
+require_auth.js
 Проверят доступ по зачению "login" в AsyncStorage.
 
 
