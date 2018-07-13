@@ -1,0 +1,40 @@
+{
+  "name": "task",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@types/xml2js": "^0.4.3",
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "events": "^3.0.0",
+    "jest": "^23.3.0",
+    "jest-react-native": "^18.0.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^6.3.1",
+    "buffer": "^5.1.0",
+    "native-base": "^2.1.5",
+    "react": "16.3.1",
+    "react-native": "~0.55.2",
+    "react-native-elements": "^0.19.1",
+    "react-native-rss-parser": "^1.1.0",
+    "react-navigation": "^2.6.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-form": "^7.4.2",
+    "redux-thunk": "^2.3.0",
+    "rss-parser": "^3.4.2",
+    "stream": "0.0.2",
+    "timers": "^0.1.1",
+    "xml2js": "^0.4.19"
+  }
+}
